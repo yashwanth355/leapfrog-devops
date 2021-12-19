@@ -1,7 +1,7 @@
 
 ### Commands to run
 ```
-git clone https://github.com/sasidharchalla/APIGateway.git
+https://github.com/yashwanth355/leapfrog-devops.git
 ```
 The below commands are used to generate lambda function names to modules/getlambdas/lambda_names.yaml, 
 This is just a workaround.

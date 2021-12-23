@@ -9,7 +9,7 @@ data "archive_file" "function" {
 resource "aws_lambda_function" "test_lambda" {
   filename      = "${local.lambda_zip_location}"
   function_name = "function"
-  role          = ${"aws_iam_role.lambda_role.arn"}
+  role          = "${aws_iam_role.lambda_role.arn}"
   handler       = "function.hello"
 
   # source_code_hash = "${base64sha256(file("lambda_function_payload.zip"))}"
